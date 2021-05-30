@@ -1,0 +1,19 @@
+###
+GET http://127.0.0.1:80/items-by-category HTTP/1.1
+content-type: text/plain
+
+###
+GET http://127.0.0.1:80/items-by-category/from-date-range?start=2021-01-28&end=2022-01-28 HTTP/1.1
+content-type: application/json
+
+###
+GET http://127.0.0.1:80/items-by-category/from-id?id=39689198 HTTP/1.1
+content-type: application/json
+
+###
+GET http://127.0.0.1:80/items-by-category/from-id?id=3968919 HTTP/1.1
+content-type: application/json
+
+###
+GET http://127.0.0.1:80/items-by-category/best-time?venue_name=SideBar Orlando HTTP/1.1
+content-type: application/json
